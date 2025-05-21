@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CloudMart - Your Online Deals Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #ffffff);
+      color: #333;
+    }
+    header {
+      background-color: #00bcd4;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #0097a7;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+    }
+    footer {
+      background-color: #004d40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .social a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CloudMart</h1>
+    <p>Your one-stop online shop for trending products</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="home">
+    <h2>Welcome to CloudMart</h2>
+    <p>We help you find the best deals on hot trending items. Perfect for affiliate marketers and dropshipping entrepreneurs.</p>
+  </section>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>CloudMart is built for dreamers like you — we connect you with lucrative product offers and provide the tools to start selling today.</p>
+  </section>
+  <section id="products">
+    <h2>Hot Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Product 1">
+        <h3>Smart Watch</h3>
+        <p><a href="#">Buy Now</a></p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Product 2">
+        <h3>Wireless Earbuds</h3>
+        <p><a href="#">Buy Now</a></p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Product 3">
+        <h3>Mini Drone</h3>
+        <p><a href="#">Buy Now</a></p>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@cloudmart.com</p>
+    <div class="social">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 CloudMart. All rights reserved.</p>
+  </footer>
+</body>
+</html>
